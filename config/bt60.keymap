@@ -45,8 +45,6 @@
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 	};
-};
-{
     &kscan0 {
         debounce-press-ms = <15>;
         debounce-release-ms = <3>;
